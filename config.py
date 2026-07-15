@@ -76,16 +76,11 @@ SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "c9c63c6fbf2f467c8bc6862
 # ── Session strings (optional) ─────────────────────────────────────────────────
 STRING1 = getenv("STRING_SESSION")
 STRING2 = getenv("STRING_SESSION2")
-STRING3 = getenv("STRING_SESSION3")
-STRING4 = getenv("STRING_SESSION4")
-STRING5 = getenv("STRING_SESSION5")
+STRI
 
 # ── Media assets ──────────────────────────────────────────────────────────
 START_IMGS = [
-    "https://files.catbox.moe/a6sz5r.jpg",
-    "https://files.catbox.moe/53szdj.jpg",
-    "https://files.catbox.moe/h9dan0.jpg",
-    "https://files.catbox.moe/s8yhxr.jpg",
+    "https://i.ibb.co/vxHyxc1G/file-166.jpg",
 ]
 STICKERS = [
     "CAACAgUAAyEFAASQje-AAAI92mkOFHmOlyKv0vEpoJE6S7ZInIuPAALbFQACSZmpVI0wvAnbSnk9HgQ",
@@ -95,9 +90,9 @@ STICKERS = [
     "CAACAgUAAyEFAASQje-AAAI90mkOFCn95GwjE62nWBG2o9H-FK15AAJgFQACJ_uwVMGj96qQgd3hHgQ",
     "CAACAgQAAyEFAASQje-AAAI90GkOFCDWtQkvBiumJxSoedz0NqvLAAIzFAAC9ED4UX1Ta6URzlyIHgQ",
 ]
-HELP_IMG_URL = "https://files.catbox.moe/a6sz5r.jpg"
-PING_VID_URL = "https://files.catbox.moe/qibmue.mp4"
-PLAYLIST_IMG_URL = "https://files.catbox.moe/h9dan0.jpg"
+HELP_IMG_URL = "https://i.ibb.co/vxHyxc1G/file-166.jpg"
+PING_VID_URL = "https://i.ibb.co/vxHyxc1G/file-166.jpg"
+PLAYLIST_IMG_URL = "https://i.ibb.co/vxHyxc1G/file-166.jpg"
 STATS_VID_URL = "https://files.catbox.moe/a6sz5r.jpg"
 TELEGRAM_AUDIO_URL = "https://files.catbox.moe/s8yhxr.jpg"
 TELEGRAM_VIDEO_URL = "https://files.catbox.moe/a6sz5r.jpg"
