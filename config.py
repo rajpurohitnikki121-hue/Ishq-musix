@@ -82,10 +82,8 @@ STRING5 = getenv("STRING_SESSION5")
 
 # ── Media assets ──────────────────────────────────────────────────────────
 START_IMGS = [
-    "https://files.catbox.moe/a6sz5r.jpg",
-    "https://files.catbox.moe/53szdj.jpg",
-    "https://files.catbox.moe/h9dan0.jpg",
-    "https://files.catbox.moe/s8yhxr.jpg",
+    "https://i.ibb.co/vxHyxc1G/file-166.jpg",
+    "https://i.ibb.co/WWDgXR79/file-167.jpg",
 ]
 STICKERS = [
     "CAACAgUAAyEFAASQje-AAAI92mkOFHmOlyKv0vEpoJE6S7ZInIuPAALbFQACSZmpVI0wvAnbSnk9HgQ",
@@ -139,10 +137,10 @@ adminlist, lyrical, votemode, autoclean, confirmer = {}, {}, {}, [], {}
 
 # ── Minimal validation ──────────────────────────────────────────────────────
 if SUPPORT_CHANNEL and not re.match(r"^https?://", SUPPORT_CHANNEL):
-    raise SystemExit("[ERROR] - Invalid SUPPORT_CHANNEL URL. Must start with https://")
+    raise SystemExit("[ERROR] - Invalid SUPPORT_CHANNEL URL. https://t.me/always_youuh")
 
 if SUPPORT_CHAT and not re.match(r"^https?://", SUPPORT_CHAT):
-    raise SystemExit("[ERROR] - Invalid SUPPORT_CHAT URL. Must start with https://")
+    raise SystemExit("[ERROR] - Invalid SUPPORT_CHAT URL. https://t.me/nighttblooms")
 
 if not COOKIE_URL:
     COOKIE_URL = None
